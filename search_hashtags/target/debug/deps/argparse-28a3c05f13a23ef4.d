@@ -1,0 +1,14 @@
+/home/bunker/projects/search_hashtags/target/debug/deps/argparse-28a3c05f13a23ef4.rmeta: /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/lib.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/action.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/parser.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/generic.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/custom.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/help.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/print.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/bool.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/num.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/from_cli.rs
+
+/home/bunker/projects/search_hashtags/target/debug/deps/argparse-28a3c05f13a23ef4.d: /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/lib.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/action.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/parser.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/generic.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/custom.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/help.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/print.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/bool.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/num.rs /home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/from_cli.rs
+
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/lib.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/action.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/parser.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/generic.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/custom.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/help.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/print.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/bool.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/num.rs:
+/home/bunker/.cargo/registry/src/github.com-1ecc6299db9ec823/argparse-0.2.2/src/from_cli.rs:

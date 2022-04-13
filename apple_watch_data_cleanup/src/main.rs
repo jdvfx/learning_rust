@@ -1,7 +1,7 @@
 // cli args
-use std::env;
+// use std::env;
 // exit if cli args incorrect
-use std::process;
+// use std::process;
 // read large file
 use std::fs::File;
 use std::io::prelude::*;
@@ -20,8 +20,8 @@ fn main() {
     // let file_in: String = config.input_file;
     // let file_out: String = config.output_file;
 
-    let file_in: String = "/home/bunker/Downloads/applewatch/apple_health_export/export.xml".to_string();
-    let file_out: String = "/home/bunker/projects/heart/out.txt".to_string();
+    let file_in: String = "applewatch_data_export.xml".to_string();
+    let file_out: String = "out.txt".to_string();
     sort_data(file_in, file_out);
 }
 
@@ -75,8 +75,7 @@ fn sort_data(input_file: String, output_file: String) -> std::io::Result<()> {
     let file = File::open(&input_file)?;
     let reader = BufReader::new(file);
     //
-    let mut nlines = 0;
-
+    // let mut nlines = 0;
     let mut pulse_measures: Vec<String> = Vec::new();
     //
     'loop_lines: for line in reader.lines() {
@@ -84,8 +83,7 @@ fn sort_data(input_file: String, output_file: String) -> std::io::Result<()> {
         let tree = roxmltree::Document::parse(&l); //
         if tree.is_ok() {
             for xml_element in tree.unwrap().descendants() {
-                println!("{:?}", xml_element);
-                //             //
+                //
                 let typ = &xml_element.attribute("type");
                 if typ.is_some() {
                     if typ.unwrap().contains("HeartRate") == false {
@@ -116,13 +114,13 @@ fn sort_data(input_file: String, output_file: String) -> std::io::Result<()> {
                     }
                 }
             }
-            nlines += 1;
-            //         if nlines % 1000 == 0 {
-            //             println!("{}", nlines);
-            //         }
-            if nlines > 1000 {
-                break 'loop_lines;
-            }
+            // nlines += 1;
+            // if nlines % 1000 == 0 {
+            //     println!("{}", nlines);
+            // }
+            // if nlines > 1000 {
+            //     break 'loop_lines;
+            // }
         }
     }
 
